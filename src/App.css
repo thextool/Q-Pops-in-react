@@ -1,28 +1,49 @@
-.App {
-  text-align: center;
+body {
+  background: lightblue;
+  height: 150vh;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+header{
+  background: rgb(170, 162, 162);
+  width: 100vw;
+  height: 10vh;  
+  padding-left: 5vw;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+main{
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
-
-.App-title {
-  font-size: 1.5em;
+img{
+  width: 33vw;
+  height: 25vh;
 }
-
-.App-intro {
-  font-size: large;
+.intro{
+  background: rgb(170, 162, 162);
+  padding: 40px;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.answerSection{
+  display: flex;
+  justify-content: space-around;
+}
+.answerTitles{
+  display: flex;
+  justify-content: space-around;
+}
+h1{
+  color:darkblue;
+  margin-top: 0%;
+}
+.intro{
+  margin: 5vw;
+}
+.quoteAndButton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.guesses{
+  background: rgb(170, 162, 162);
+  padding: 10px;
+  color:darkblue;
+  text-decoration: underline;
+  
 }
